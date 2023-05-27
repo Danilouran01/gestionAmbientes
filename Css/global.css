@@ -1,0 +1,142 @@
+.logo{
+    width: 50px !important;
+    margin-left: 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.modal-title{
+    color: white !important;
+}
+
+.btn-registro:hover{
+    color: white;
+}
+
+
+        /* MODALES */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.titulo_principal{
+    color: white;
+}
+
+.select{
+    cursor: pointer;
+}
+
+
+.registro-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rgts-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.campos-registro{
+    border-radius: 5px;
+    border: 1px solid #238276;
+    outline: none;
+
+}
+
+
+.btn-registro{
+    border: 1px solid #238276;
+    transition: all .5s;
+    background: rgb(199, 197, 197);
+    border-radius: 5px;
+}
+
+.btn-registro:hover{
+    background: #238276;
+}
+
+.modal-header{
+    background: #238276;
+}
+
+.modal-body{
+    background: rgb(202, 202, 202);
+    width: auto;
+}
+
+.btn-consultar{
+    display: none;
+}
+
+
+.btn-activos{
+    display: flex;
+    width: auto;
+    border-radius: 10px;
+    background: #238276;
+    border: solid 1px #25998a;   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+
+    
+}
+.btn-activos:hover{
+    background: #25998a;
+
+
+}.contenido{
+    overflow: auto;
+    
+}
+
+.parte-superior{
+    background-color: #bec0be;
+    height: 70px;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100%;
+    z-index: 100 !important;
+}
+
+.flex {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 50 !important;
+}
+
+/* visulizar contraseña */
+
+.toggle-password {
+    position: relative;
+    cursor: pointer;
+}
+.toggle-password .toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+
+
